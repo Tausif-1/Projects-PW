@@ -1,0 +1,71 @@
+body{
+    background-image: url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+
+    background-size: cover;
+
+    
+}
+
+header{
+    display: flex;
+    margin-top: 25px;
+}
+
+.logo{
+    
+    margin-left: 30px;
+}
+
+.menu{
+    margin-left: 30%;
+    color: #efbc3b;
+}
+
+.map{
+    margin-left: 30px;
+    color: #efbc3b;
+}
+
+.about{
+    margin-left: 30px;
+    color: #efbc3b;
+}
+
+.contact{
+    margin-left: 30px;
+    color: #efbc3b;
+}
+
+.btn{
+    margin-left: 35%;
+    width: 20vw;
+    height: 4vh;
+    background-color: #e52f2f;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+main p{
+    font-size: 80px;
+    font-weight: 900;
+    justify-content: center;
+    text-align: center;
+    color:#efbc3b;
+}
+
+main button{
+    margin-left: 46%;
+    background-color: #e52f2f;
+    border: none;
+    color: #fff;
+    height: 5vh;
+    width: 12vw;
+    font-size: large;
+    
+}
+
+footer{
+    margin-left: 85%;
+}

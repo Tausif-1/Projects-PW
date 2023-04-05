@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-content: center;
+
+}
+
+body{
+    background-color: #fafcff;
+    font-family: "poppins";
+
+}
+
+nav ul{
+    display: flex;
+    margin-top: 30px;
+    list-style: none;
+
+    
+}
+
+.logo1{
+    margin-left: 30px;
+    
+    
+}
+
+.home{
+    margin-left: 70px;
+    padding-top: 15px;
+    font-weight: 400;
+
+
+}
+
+.about{
+    margin-left: 30px;
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+.service{
+    margin-left: 30px;
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+.portfolio{
+    margin-left: 30px;
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+.pricing{
+    margin-left: 30px;
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+.btn1{
+    margin-left: 52%;
+    background-color: #6f58b0;
+    color: #fafcff;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 5vh;
+    width: 12vh;
+    font-weight: 700;
+    
+}
+
+.btn1:hover{
+    background-color: #1a1919;
+    color: #6f58b0;
+}
+
+
+.img{
+    
+    margin-left: 40%;
+    
+}
+
+.head{
+    font-weight: 800;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -500px;
+    margin-left: 10px;
+}
+.head span{
+    color: #6f58b0;
+    font-weight: 800;
+    
+}
+
+.para{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: large;
+    color: #828282;
+}
+
+.btn2{
+    margin-top: 40px;
+    margin-left: 10px;
+    background-color: #6f58b0;
+    color: #fafcff;
+    cursor: pointer;
+    height: 5vh;
+    width: 18vh;
+    border-radius: 5px;
+}
+
+.btn2:hover{
+    background-color: #1a1919;
+    color: #6f58b0;
+}
+
+
