@@ -3,6 +3,12 @@
     padding: 0;
     background-color: #000000;
     color: #fff;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Changa One', cursive;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 
@@ -19,7 +25,7 @@ nav ul{
 .home-btn{
     background-color: #663399;
     width: 4.5vw;
-    height: 2.8vh;
+    height: 3vh;
     justify-content: center;
     text-align: center;
     border-radius: .5rem;
@@ -67,7 +73,7 @@ img[alt="hand"]{
 }
 
 img[alt="pcimg"]{
-    height: 50vh;
+    height: 60vh;
     width: 35vw;
     margin-left: 35%;
 }
