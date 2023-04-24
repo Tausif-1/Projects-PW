@@ -1,33 +1,265 @@
 *{
-    background-color: #000000;
-    box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    background-color: #000000;
     color: #fff;
 }
-nav{
-    margin: 20px;
-}
+
+
+
 nav ul{
     display: flex;
-    flex-direction: row;
     justify-content: right;
-    align-items: center;
+    gap: 2vw;
     list-style: none;
-    gap: 20px;
-    font-size: 20px;
+    margin: 1%;
+    cursor: pointer;
 }
 
-img[alt="menu"]{
-    width: 20px;
+.home-btn{
+    background-color: #663399;
+    width: 4.5vw;
+    height: 2.8vh;
+    justify-content: center;
+    text-align: center;
+    border-radius: .5rem;
+}
+
+.home-btn:hover{
+    background-color: green;
+}
+
+
+img[alt="hambtn"]{
     display: none;
-}
-.comp img{
-    width: 35vw;
-    margin: 0 0 0 50%;
+    height: 4vh;
+    margin-left: 1%;
+    
+
 }
 
-.wave img{
-    width: 50px;
+.sect1{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+img[alt="hand"]{
+    height: 4.5vh;
+    width: 2.5vw;
+}
+
+.text-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 0.4vw;
+    margin-top: 70%;
+}
+
+.text-1 h3{
+    margin-top: 5%;
+    font-weight: 700;
+}
+
+img[alt="pcimg"]{
+    height: 50vh;
+    width: 35vw;
+    margin-left: 35%;
+}
+
+.text2 h1{
+    font-size: 2rem;
+}
+
+.text2 h2{
+    color: goldenrod;
+
+}
+.projects{
+    margin: 3%;
+
+}
+.projects div h2{
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+    
+}
+.line{
+    background-color:blue;
+    height: .7vh;
+    width: 7.3vw;
+    border-radius: 1rem;
+    margin-left: 46.2%;
+}
+
+.project-list1{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.project-list2{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+img[alt="img1"]{
+    height: 50vh;
+    width: 25vw;
+}
+
+img[alt="img2"]{
+    height: 50vh;
+    width: 25vw;
+}
+.down{
+
+}
+footer h2{
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.line2{
+
+    background-color:blue;
+    height: .7vh;
+    width: 7.3vw;
+    border-radius: 1rem;
+    margin:0.5% 0 0 46.2%;
+}
+
+.icon{
+    display: flex;
+    margin: 2% 0 5% 47%;
+    gap: 1rem; 
+    
+}
+
+
+
+@media screen and (max-width:660px){
+
+    nav ul{
+        display: none;
+    }
+
+    img[alt="hambtn"]{
+        display: block;
+        height: 4vh;
+        margin-left: 1%;
+        margin: 1%;
+        cursor: pointer;
+    
+    }
+
+    .sect1{
+        
+        justify-content: center;
+        text-align: center;
+    }
+
+    img[alt="hand"]{
+        height: 4vh;
+        width: 8vw;
+        margin: 1% 0 3% 25%;
+        
+    }
+
+    .sect1{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .text-1{
+        display: grid;
+    }
+
+    .right{
+        margin: 10%;
+    }
+
+    img[alt="pcimg"]{
+        height: 20vh;
+        width: 40vw;
+        justify-content: center;
+    }
+
+    main{
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .line{
+        background-color:blue;
+    height: .7vh;
+    width: 24vw;
+    border-radius: 1rem;
+    margin:0.5% 0 0 37%;
+    }
+
+    .project-list1{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+
+    img[alt="img1"]{
+        height: 20vh;
+        width: 40vw;
+    }
+
+    .project-list2{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+
+    
+
+    img[alt="img2"]{
+        height: 20vh;
+        width: 40vw;
+    }
+
+    footer h2{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .line2{
+    background-color:blue;
+    height: .7vh;
+    width: 24vw;
+    border-radius: 1rem;
+    margin:0.5% 0 0 38%;
+
+    }
+
+    .icon{
+        display: flex;
+        margin: 2% 0 5% 40%;
+        gap: 1rem; 
+        
+    }
+
+
+
+
+
+
+
 }
 
